@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("CursedTimerULiL.woff2") format("woff2"),
+    url("CursedTimerULiL.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  text-align: center;
+  background-color: #1b244a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  border: 5px #9aabd8 solid;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #eeeeee;
+  font-size: 40px;
+}
+.score-box {
+  background-color: #0a0001;
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#home-score,
+#guest-score {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  font-size: 90px;
+  font-weight: 400;
+}
+.score-btns {
+  margin: 20px auto;
+}
+
+button {
+  background: none;
+  color: #9aabd8;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #9aabd8;
+  width: 50px;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+button:hover {
+  color: #1b244a;
+  background: #9aabd8;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  margin-top: 50px;
+}
+
+.reset-btn:hover {
+  color: #f8f8f8;
+  background: #f94f6d;
+  border-color: #f8f8f8;
+}
